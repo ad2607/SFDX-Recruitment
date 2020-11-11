@@ -12,7 +12,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Opportunity__c</field>
+                <field>Vacancy__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Applicant__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -75,15 +79,7 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>Application__c.Vacancy__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Interview__c.Vacancy__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Timesheet__c.Vacancy__c</relatedList>
+        <relatedList>Timesheet_Line_Items__c.Timesheets__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
