@@ -1,0 +1,5 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	   <aura:attribute name="map" type="Object"/>
+    <ltng:require styles="/resource/leaflet/leaflet.css" scripts="/resource/leaflet/leaflet.js" afterScriptsLoaded="{!c.jsLoaded}" />
+    <div id="map"></div>
+</aura:component>
