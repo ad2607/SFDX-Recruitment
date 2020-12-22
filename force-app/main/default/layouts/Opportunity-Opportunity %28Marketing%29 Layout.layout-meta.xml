@@ -29,6 +29,10 @@
                 <behavior>Edit</behavior>
                 <field>Payment_Terms__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Number_of_Vacancies__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -253,6 +257,9 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Salary__c</fields>
+        <fields>Start_Date__c</fields>
+        <fields>End_Date__c</fields>
         <relatedList>Vacancy__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
