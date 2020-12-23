@@ -23,6 +23,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Applicant_Skill__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.BillingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -163,12 +168,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Applicant_Skill__c.Skills__c</field>
+        <field>Applicant_Skill__c.Skill__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Application__c.Applicant__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Application__c.CV_Cover_letter__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -209,6 +219,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Interview__c.Interview_Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Interview__c.Interviewee__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -308,6 +323,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Vacancy_Skill__c.Skill_Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vacancy_Skill__c.Skill__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Vacancy__c.Address__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -319,11 +344,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Vacancy__c.Geolocation__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Vacancy__c.Main_Skill__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -382,10 +402,19 @@
         <recordType>PersonAccount.PersonAccount</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Skill__c-Skill Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Suggested_Applicant__c-Suggested Applicant Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Timesheet_Line_Items__c-Timesheet Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Timesheet__c-Timesheet Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Vacancy_Skill__c-Vacancy Skill Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Vacancy__c-Vacancy Layout</layout>
@@ -420,6 +449,16 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Contact.Employed</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Contact.Employee</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>PersonAccount.Applicant</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
@@ -442,6 +481,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>My_Map</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Skill__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Suggested_Applicant__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

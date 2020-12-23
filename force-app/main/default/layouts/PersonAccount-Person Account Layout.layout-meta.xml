@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>DataDotComClean</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -19,6 +18,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Employer__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Applicant_Skill__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -195,6 +198,8 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Skill__c</fields>
+        <fields>Skill_Level__c</fields>
         <relatedList>Applicant_Skill__c.Account__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

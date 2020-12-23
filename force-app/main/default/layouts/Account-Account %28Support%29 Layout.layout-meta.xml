@@ -45,6 +45,10 @@
                 <behavior>Edit</behavior>
                 <field>Employer__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Applicant_Skill__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
