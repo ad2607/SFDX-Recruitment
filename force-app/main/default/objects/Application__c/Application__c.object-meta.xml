@@ -144,12 +144,12 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>compactLayout</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -158,15 +158,17 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Application</label>
     <nameField>
-        <label>Application Name</label>
-        <type>Text</type>
+        <displayFormat>APPID-{0000}</displayFormat>
+        <label>Application ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Applications</pluralLabel>
     <searchLayouts>
-        <searchResultsAdditionalFields>Applicant__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Vacancy__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Requested_salary__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Requested_Salary__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

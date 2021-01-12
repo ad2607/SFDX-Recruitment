@@ -2,9 +2,7 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
         <headerColor>#0070D2</headerColor>
-        <logo>test</logo>
-        <logoVersion>1</logoVersion>
-        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
     <description>Manage your sales process with accounts, leads, opportunities, and more</description>
     <formFactors>Small</formFactors>
@@ -19,17 +17,8 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Opportunity</tabs>
-    <tabs>Vacancy__c</tabs>
+    <tabs>Vacancies__c</tabs>
     <tabs>Application__c</tabs>
-    <tabs>Interview__c</tabs>
-    <tabs>Timesheet__c</tabs>
-    <tabs>standard-Task</tabs>
-    <tabs>standard-File</tabs>
-    <tabs>standard-Dashboard</tabs>
-    <tabs>standard-report</tabs>
-    <tabs>standard-Feed</tabs>
     <tabs>standard-Event</tabs>
-    <tabs>Timesheet_Line_Items__c</tabs>
-    <tabs>Applicant_Skill__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

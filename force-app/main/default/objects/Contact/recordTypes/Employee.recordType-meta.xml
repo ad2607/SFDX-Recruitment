@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Employee</fullName>
     <active>true</active>
+    <description>Candidates which have been placed</description>
     <label>Employee</label>
     <picklistValues>
         <picklist>LeadSource</picklist>

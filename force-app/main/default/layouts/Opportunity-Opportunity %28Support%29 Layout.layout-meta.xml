@@ -31,11 +31,19 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Payment_Terms__c</field>
+                <field>Number_of_Vacancies__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Number_of_Vacancies__c</field>
+                <field>Revenue_Per_Vacancy__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Vacancy_Salary__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Amount__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -227,8 +235,6 @@
         <fields>ACCOUNT.NAME</fields>
         <fields>PARTNER.ROLE</fields>
         <fields>PARTNER.PRIMARY</fields>
-        <fields>ACCOUNT.PC_TITLE</fields>
-        <fields>ACCOUNT.PC_EMAIL</fields>
         <relatedList>RelatedPartnerList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -238,25 +244,11 @@
         <relatedList>RelatedOpportunityHistoryList</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>MemberName</fields>
-        <fields>OppAccessLevel</fields>
-        <fields>TeamMemberRole</fields>
-        <relatedList>RelatedOpportunitySalesTeam</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>SplitOwner</fields>
-        <fields>SplitType</fields>
-        <fields>SplitPercentage</fields>
-        <fields>SplitAmount</fields>
-        <fields>SplitNote</fields>
-        <relatedList>RelatedOpportunitySplits</relatedList>
-    </relatedLists>
-    <relatedLists>
         <fields>NAME</fields>
-        <fields>Salary__c</fields>
         <fields>Start_Date__c</fields>
-        <fields>End_Date__c</fields>
-        <relatedList>Vacancy__c.Opportunity__c</relatedList>
+        <fields>Salary__c</fields>
+        <fields>Vacancy_Status__c</fields>
+        <relatedList>Vacancies__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
