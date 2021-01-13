@@ -5,6 +5,17 @@
     <description>Candidates which have been placed</description>
     <label>Employee</label>
     <picklistValues>
+        <picklist>Candidate_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hired</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>LeadSource</picklist>
         <values>
             <fullName>Other</fullName>

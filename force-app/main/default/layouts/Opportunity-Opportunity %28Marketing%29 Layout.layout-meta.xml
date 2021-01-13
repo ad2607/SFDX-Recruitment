@@ -26,20 +26,8 @@
                 <field>CampaignId</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Number_of_Vacancies__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Revenue_Per_Vacancy__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Vacancy_Salary__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Amount__c</field>
+                <field>Total_Revenue__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -249,8 +237,8 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>Start_Date__c</fields>
         <fields>Salary__c</fields>
+        <fields>Expected_Revenue__c</fields>
         <fields>Vacancy_Status__c</fields>
         <relatedList>Vacancies__c.Opportunity__c</relatedList>
     </relatedLists>

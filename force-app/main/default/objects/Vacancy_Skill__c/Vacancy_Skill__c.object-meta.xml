@@ -156,7 +156,7 @@
     <label>Vacancy Skill</label>
     <nameField>
         <displayFormat>VS-{0000}</displayFormat>
-        <label>Vacancy Skill Name</label>
+        <label>Vacancy Skill ID</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Vacancy Skills</pluralLabel>

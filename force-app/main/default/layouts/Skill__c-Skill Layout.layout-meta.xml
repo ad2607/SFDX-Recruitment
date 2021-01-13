@@ -50,8 +50,8 @@
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
+        <fields>Vacancy__c</fields>
         <fields>NAME</fields>
-        <fields>Skill_Level__c</fields>
         <relatedList>Vacancy_Skill__c.Skill__c</relatedList>
     </relatedLists>
     <relatedLists>

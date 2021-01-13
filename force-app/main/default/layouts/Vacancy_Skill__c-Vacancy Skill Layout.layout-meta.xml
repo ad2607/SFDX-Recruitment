@@ -18,10 +18,6 @@
                 <behavior>Edit</behavior>
                 <field>Skill__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Skill_Level__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsTopToBottom</style>
