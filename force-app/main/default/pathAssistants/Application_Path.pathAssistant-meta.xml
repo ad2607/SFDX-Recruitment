@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Application__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Application Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;Please attach CV to this application.&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>CV Received</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Create Interview from Activity Panel&lt;/p&gt;</info>
+        <picklistValueName>Interview Date Set</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>
