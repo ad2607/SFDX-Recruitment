@@ -1,0 +1,12 @@
+{
+    "Username": "james2021Test@vguardcc.com",
+    "LastName": "Hobbs",
+    "Email": "james@vguardcc.com",
+    "Alias": "tester2",
+    "TimeZoneSidKey": "America/Denver",
+    "LocaleSidKey": "en_US",
+    "EmailEncodingKey": "UTF-8",
+    "LanguageLocaleKey": "en_US",
+    "profileName": "Standard Platform User",
+    "generatePassword": true
+}
