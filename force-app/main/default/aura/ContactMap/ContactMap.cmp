@@ -1,0 +1,7 @@
+<aura:component>
+    <aura:handler event="c:ContactsLoaded" action="{!c.onContactsLoaded}"/>
+    <aura:attribute name="mapMarkers" type="Map[]"/>
+    <lightning:card title="Candidate Map" iconName="action:map">
+        <lightning:map mapMarkers="{!v.mapMarkers}"/>
+    </lightning:card>
+</aura:component>

@@ -1,0 +1,15 @@
+<aura:component controller="ContactSearchController">
+    <aura:registerEvent name="ContactsLoaded" type="c:ContactsLoaded"/>
+    <aura:handler name="init" value="{!this}" action="{!c.onInit}"/>
+    <aura:attribute name="searchTerm" type="String" default="Dublin"/>
+    <lightning:card title="Candidate Search" iconName="standard:search">
+        <div class="slds-form slds-p-around_x-small">
+            <lightning:input
+                label="Search"
+                variant="label-hidden"
+                value="{!v.searchTerm}"
+                placeholder="Search by name, phone, or address"
+                onchange="{!c.onSearchTermChange}"/>
+        </div>
+    </lightning:card>
+</aura:component>
