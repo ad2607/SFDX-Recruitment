@@ -10,5 +10,5 @@
     <columns>LEAD.CREATED_DATE</columns>
     <columns>CORE.USERS.ALIAS</columns>
     <filterScope>Mine</filterScope>
-    <label>All Leads</label>
+    <label>My Leads</label>
 </ListView>
